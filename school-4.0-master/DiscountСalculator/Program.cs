@@ -79,7 +79,7 @@ namespace DiscountСalculator
             }
             else if (answer == 2)
             {
-                Console.WriteLine("Введите стоимость скидки в рублях");
+                Console.WriteLine("Введите размер скидки в рублях");
 
                 int.TryParse(Console.ReadLine(), out var discountValue);
 
@@ -98,7 +98,7 @@ namespace DiscountСalculator
             else
             {
 
-                Console.WriteLine("Введите сразмер скидки");
+                Console.WriteLine("Введите размер скидки в рублях");
 
                 int.TryParse(Console.ReadLine(), out var DiscountValue2);
 
